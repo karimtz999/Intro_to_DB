@@ -13,5 +13,5 @@ WHERE
         SELECT TABLE_NAME
         FROM INFORMATION_SCHEMA.TABLES
         WHERE TABLE_SCHEMA = 'alx_book_store'
-        AND TABLE_NAME = 'books'
+        AND TABLE_NAME = 'Books'
     );
